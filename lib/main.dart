@@ -16,7 +16,10 @@ void main() => runApp(MaterialApp(
                   fontSize: 30.0
                 ),
               ),
+          ],
+          ),
           Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Text(
                 'Ka-Ching',
@@ -26,7 +29,10 @@ void main() => runApp(MaterialApp(
                   )
             ],
               ),
-            ],
+          Center(
+            child: Image(
+              image: AssetImage('assets/IMG_7163.PNG'),
+            )
           ),
           FlatButton(
             shape: RoundedRectangleBorder(
